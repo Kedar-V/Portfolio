@@ -205,7 +205,7 @@
    const portfolioDetailsLightbox = GLightbox({
     selector: '.portfolio-details-lightbox',
     width: '70%',
-    height: '65vh'
+    height: '75vh'
   });
 
   function myFunction(){

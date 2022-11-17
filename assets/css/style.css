@@ -1,6 +1,25 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #034786; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #034786; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -483,7 +502,7 @@ section {
 --------------------------------------------------------------*/
 .skills{
   margin-top: 5vh;
-  padding-top: 5vh;
+  padding-top: 8vh;
   padding-bottom: 3vh;
   /* height: 41vh; */
   /* overflow-y: scroll; */
@@ -592,8 +611,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio{
   margin-top: 10vh;
-  padding-top: 5vh;
-  padding-bottom: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 25vh;
   /* height: 100vh; */
   /* overflow-y: scroll; */
   /* width: calc(100%); */
@@ -829,7 +848,7 @@ section {
 .services{
   /* margin-top: 10vh; */
   padding-top: 5vh;
-  padding-bottom: 8vh;
+  padding-bottom: 15vh;
   /* height: 60vh; */
   /* overflow-y: scroll; */
   /* background-color: #0e3e6a; */

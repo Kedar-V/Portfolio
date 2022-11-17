@@ -389,6 +389,8 @@ a.btn, a.btn-social {
     margin-right: 5px !important;
 }
 .mb-0 {
+  height: 60vh;
+  overflow-y: scroll;
     margin-bottom: 0 !important;
 }
 .btn-facebook, .btn-facebook:active, .btn-facebook:focus {
